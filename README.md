@@ -15,7 +15,7 @@ import json
 
 endpoint_name = 'KoSimCSE-roberta-2024-02-13-00-16-45'
 
-sentence = "분당 이마트점에 KT 대리점이 있나요?"
+sentence = "한국어 임베딩이 필요합니다."
 query_response = query_endpoint_embedding(
     json.dumps(payload).encode("utf-8"), endpoint_name=endpoint_name
 )
