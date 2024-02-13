@@ -7,7 +7,7 @@ Hugging Face의 [KoSimCSE-roberta](https://huggingface.co/BM-K/KoSimCSE-roberta)
 
 
 
-[KoSimCSE-robera를 이용하여 Endpoint 생성](https://github.com/kyopark2014/embedding-korean/blob/main/KoSimCSE-roberta/embedding-kosimcse.ipynb)에 따라 Endpoint를 생성합니다. 생성한 Embedding은 API를 이용해 호출합니다. 활용 예는 아래와 같습니다. endpoint_name는 노트북을 실행하여 생성된 SageMaker Endpoint입니다.
+[KoSimCSE-robera를 이용하여 Endpoint 생성](https://github.com/kyopark2014/embedding-korean/blob/main/KoSimCSE-roberta/embedding-kosimcse.ipynb)에 따라 Endpoint를 생성합니다. 생성한 Embedding은 API를 이용해 호출합니다. 활용 예는 아래와 같습니다. 여기서 endpoint_name는 노트북을 실행하여 생성된 SageMaker Endpoint입니다.
 
 ```python
 import boto3
