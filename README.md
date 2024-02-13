@@ -1,2 +1,2 @@
-# embedding-korean
-It describes embeddings for Korean.
+# 한국어 Embedding
+
