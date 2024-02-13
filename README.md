@@ -2,7 +2,7 @@
 
 ## KoSimCSE-roberta
 
-KoSimCSE는 SimCSE(Simple Contrastive Learning of Sentence Embeddings)을 이용한 한국어 Embedding 모델로 직관적이고 간결하면서 성능 좋은 임베딩 모델입니다. Hugging Face의 [KoSimCSE-roberta](https://huggingface.co/BM-K/KoSimCSE-roberta)을 이용하여 한글 Embedding을 위한 API를 생성합니다. [Github repo](https://github.com/BM-K/Sentence-Embedding-is-all-you-need)에 따르면 Base Model은 [KLUE-BERT](https://github.com/KLUE-benchmark/KLUE/blob/main/README.md)입니다.
+KoSimCSE는 [SimCSE(Simple Contrastive Learning of Sentence Embeddings)](https://github.com/hppRC/simple-simcse)을 이용한 한국어 Embedding 모델로 직관적이고 간결하면서 성능 좋은 임베딩 모델입니다. Hugging Face의 [KoSimCSE-roberta](https://huggingface.co/BM-K/KoSimCSE-roberta)을 이용하여 한글 Embedding을 위한 API를 생성합니다. [Github repo](https://github.com/BM-K/Sentence-Embedding-is-all-you-need)에 따르면 Base Model은 [KLUE-BERT](https://github.com/KLUE-benchmark/KLUE/blob/main/README.md)입니다.
 
 [KoSimCSE-robera를 이용하여 Endpoint 생성](https://github.com/kyopark2014/embedding-korean/blob/main/KoSimCSE-roberta/embedding-kosimcse.ipynb)에 따라 Endpoint를 생성합니다. 생성한 Embedding은 API를 이용해 호출합니다. 활용 예는 아래와 같습니다. 여기서 endpoint_name는 노트북을 실행하여 생성된 SageMaker Endpoint입니다.
 
@@ -53,6 +53,7 @@ Query에 대한 결과는 아래와 같습니다.
 
 - RoBERTa-base: daekeun-ml/KoSimCSE-unsupervised-roberta-base, daekeun-ml/KoSimCSE-supervised-roberta-base
 - RoBERTa-large daekeun-ml/KoSimCSE-unsupervised-roberta-large, daekeun-ml/KoSimCSE-supervised-roberta-large
+
 
 
 
