@@ -15,11 +15,6 @@ import json
 
 endpoint_name = 'KoSimCSE-roberta-2024-02-13-00-16-45'
 
-sentence = "한국어 임베딩이 필요합니다."
-query_response = query_endpoint_embedding(
-    json.dumps(payload).encode("utf-8"), endpoint_name=endpoint_name
-)
-
 def query_endpoint_embedding(sentence, endpoint_name):
     payload = {
         "inputs" : sentence
@@ -33,6 +28,11 @@ def query_endpoint_embedding(sentence, endpoint_name):
         Body=encoded_json
     )
     return response
+
+sentence = "한국어 임베딩이 필요합니다."
+query_response = query_endpoint_embedding(
+    sentence, endpoint_name=endpoint_name
+)
 ```
 
 Query에 대한 결과는 아래와 같습니다.
