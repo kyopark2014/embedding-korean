@@ -54,6 +54,11 @@ Query에 대한 결과는 아래와 같습니다.
 - RoBERTa-base: daekeun-ml/KoSimCSE-unsupervised-roberta-base, daekeun-ml/KoSimCSE-supervised-roberta-base
 - RoBERTa-large daekeun-ml/KoSimCSE-unsupervised-roberta-large, daekeun-ml/KoSimCSE-supervised-roberta-large
 
+## Reference
+
+[곤수님 Kor Embedding](https://github.com/gonsoomoon-ml/Kor-LLM-On-SageMaker/tree/main/1-Lab01-Deploy-LLM)
+
+[Korean Embedding 모델을 SageMaker 배포 및 추론](https://github.com/gonsoomoon-ml/Kor-LLM-On-SageMaker/blob/main/1-Lab01-Deploy-LLM/4.Kor-Embedding-Model.ipynb)
 
 
 
