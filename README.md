@@ -38,18 +38,18 @@ def query_endpoint_embedding(sentence, endpoint_name):
 Query에 대한 결과는 아래와 같습니다.
 
 ```java
-{'ResponseMetadata': {'RequestId': '52a457cc-3eb1-4fd7-a2d2-3e9c0149582a',
+{'ResponseMetadata': {'RequestId': '8ec50dac-5ce7-4466-92c8-671cb01ac8a2',
   'HTTPStatusCode': 200,
-  'HTTPHeaders': {'x-amzn-requestid': '52a457cc-3eb1-4fd7-a2d2-3e9c0149582a',
+  'HTTPHeaders': {'x-amzn-requestid': '8ec50dac-5ce7-4466-92c8-671cb01ac8a2',
    'x-amzn-invoked-production-variant': 'AllTraffic',
-   'date': 'Tue, 13 Feb 2024 00:22:36 GMT',
+   'date': 'Tue, 13 Feb 2024 01:07:46 GMT',
    'content-type': 'application/json',
-   'content-length': '199402',
+   'content-length': '153762',
    'connection': 'keep-alive'},
   'RetryAttempts': 0},
  'ContentType': 'application/json',
  'InvokedProductionVariant': 'AllTraffic',
- 'Body': <botocore.response.StreamingBody at 0x7f79d19bf010>}
+ 'Body': <botocore.response.StreamingBody at 0x7f79d22300a0>}
 ```
 
 
