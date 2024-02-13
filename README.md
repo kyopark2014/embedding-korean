@@ -16,18 +16,21 @@ import json
 endpoint_name = 'KoSimCSE-roberta-2024-02-13-00-16-45'
 
 sentence = "분당 이마트점에 KT 대리점이 있나요?"
-payload = {
-    "inputs" : sentence
-}
-
-query_response = query_endpoint_embedding_with_json_payload(
+query_response = query_endpoint_embedding(
     json.dumps(payload).encode("utf-8"), endpoint_name=endpoint_name
 )
 
-def query_endpoint_embedding_with_json_payload(encoded_json, endpoint_name, content_type="application/json"):
+def query_endpoint_embedding(sentence, endpoint_name):
+    payload = {
+        "inputs" : sentence
+    }
+    encoded_json=json.dumps(payload).encode("utf-8")
+
     client = boto3.client("runtime.sagemaker")
     response = client.invoke_endpoint(
-        EndpointName=endpoint_name, ContentType=content_type, Body=encoded_json
+        EndpointName=endpoint_name,
+        ContentType="application/json",
+        Body=encoded_json
     )
     return response
 ```
