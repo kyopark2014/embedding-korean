@@ -1,6 +1,6 @@
 # 한국어 Embedding
 
-## KoSimCSE-robera
+## KoSimCSE-roberta
 
 Hugging Face의 [KoSimCSE-roberta](https://huggingface.co/BM-K/KoSimCSE-roberta)을 이용한 한글 Embedding입니다. 이것의 [Github repo](https://github.com/BM-K/Sentence-Embedding-is-all-you-need)에 따르면 Base Model은 [KLUE-BERT](https://github.com/KLUE-benchmark/KLUE/blob/main/README.md)입니다.
 
